@@ -513,7 +513,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(^[ \t]+)?(?=--+(?![\p{S}\p{P}&amp;&amp;[^(),;\[\]`{}_"']]))</string>
+					<string>(^[ \t]+)?(?=--+(?![\p{S}\p{P}])(?![(),;\[\]`{}_"']))</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
